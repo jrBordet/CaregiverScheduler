@@ -19,16 +19,20 @@ target 'CaregiverScheduler' do
 
   # Pods for CaregiverScheduler
 
-  pod 'SwiftSpinner'
-  pod 'Kingfisher', '~> 4.0'
-
   pod 'RxSwift',    '~> 4.0'
   pod 'RxCocoa',    '~> 4.0'
   pod 'RxDataSources', '~> 3.0'
-  
-  pod 'Moya/RxSwift', '~> 11.0'
   pod 'Action'
-  pod 'RxCoreData', '~> 0.4.0'
+  
+  # Data persitence
+  pod 'Disk', '~> 0.3.3'
+  
+  # Networking
+  pod 'Moya/RxSwift', '~> 11.0'
+  pod 'Kingfisher', '~> 4.0'
+
+  # UI
+  pod 'SwiftSpinner'
 
   target 'CaregiverSchedulerTests' do
     inherit! :search_paths
@@ -40,9 +44,5 @@ target 'CaregiverScheduler' do
 
   end
 
-  target 'CaregiverSchedulerUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
 
 end

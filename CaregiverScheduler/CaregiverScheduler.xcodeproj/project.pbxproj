@@ -16,20 +16,19 @@
 		4961A2702121C73300A95F42 /* EmpaticaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4961A26D2121C73300A95F42 /* EmpaticaService.swift */; };
 		4961A2732121C9F500A95F42 /* Caregiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4961A2722121C9F500A95F42 /* Caregiver.swift */; };
 		4961A2752121CBC900A95F42 /* EmpaticaServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4961A2742121CBC900A95F42 /* EmpaticaServiceTests.swift */; };
-		E3310BDD3CBDF279055BE8A0 /* Pods_CaregiverSchedulerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9951EA1B9704A7702A242754 /* Pods_CaregiverSchedulerUITests.framework */; };
+		4961A27B2121D56000A95F42 /* CaregiversViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4961A2792121D4EA00A95F42 /* CaregiversViewModel.swift */; };
+		4961A27F2121D7B300A95F42 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4961A27D2121D79D00A95F42 /* DataManager.swift */; };
+		4961A2812121D7E400A95F42 /* DataManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4961A2802121D7E400A95F42 /* DataManagerProtocol.swift */; };
+		4961A28A2121DF0100A95F42 /* CaregiversViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4961A2892121DF0100A95F42 /* CaregiversViewModelTests.swift */; };
+		4961A28C2121DFB300A95F42 /* EmpaticaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4961A28B2121DFB300A95F42 /* EmpaticaAPI.swift */; };
+		4961A28E2121E4B600A95F42 /* DataManagerProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4961A28D2121E4B600A95F42 /* DataManagerProtocolTests.swift */; };
+		496B79142122C644006280B5 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B79132122C644006280B5 /* Storage.swift */; };
 		E3F6695881906AC17750AA0B /* Pods_CaregiverScheduler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FCCEB48806EDEF3F9F5F8A /* Pods_CaregiverScheduler.framework */; };
 		FA7015C84F7CFFC9D9E0B445 /* Pods_CaregiverSchedulerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17065AEF45E39FBAE5A0A22D /* Pods_CaregiverSchedulerTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		4961A24D2121C32000A95F42 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4961A2302121C31E00A95F42 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4961A2372121C31E00A95F42;
-			remoteInfo = CaregiverScheduler;
-		};
-		4961A2582121C32000A95F42 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4961A2302121C31E00A95F42 /* Project object */;
 			proxyType = 1;
@@ -52,11 +51,17 @@
 		4961A2472121C32000A95F42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4961A24C2121C32000A95F42 /* CaregiverSchedulerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaregiverSchedulerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4961A2522121C32000A95F42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4961A2572121C32000A95F42 /* CaregiverSchedulerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaregiverSchedulerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4961A26A2121C73300A95F42 /* EmpaticaAPIProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmpaticaAPIProtocol.swift; sourceTree = "<group>"; };
 		4961A26D2121C73300A95F42 /* EmpaticaService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmpaticaService.swift; sourceTree = "<group>"; };
 		4961A2722121C9F500A95F42 /* Caregiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Caregiver.swift; sourceTree = "<group>"; };
 		4961A2742121CBC900A95F42 /* EmpaticaServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpaticaServiceTests.swift; sourceTree = "<group>"; };
+		4961A2792121D4EA00A95F42 /* CaregiversViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaregiversViewModel.swift; sourceTree = "<group>"; };
+		4961A27D2121D79D00A95F42 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		4961A2802121D7E400A95F42 /* DataManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManagerProtocol.swift; sourceTree = "<group>"; };
+		4961A2892121DF0100A95F42 /* CaregiversViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaregiversViewModelTests.swift; sourceTree = "<group>"; };
+		4961A28B2121DFB300A95F42 /* EmpaticaAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpaticaAPI.swift; sourceTree = "<group>"; };
+		4961A28D2121E4B600A95F42 /* DataManagerProtocolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManagerProtocolTests.swift; sourceTree = "<group>"; };
+		496B79132122C644006280B5 /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 		871B160A456AE30AD3F7A289 /* Pods-CaregiverSchedulerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaregiverSchedulerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CaregiverSchedulerTests/Pods-CaregiverSchedulerTests.release.xcconfig"; sourceTree = "<group>"; };
 		9951EA1B9704A7702A242754 /* Pods_CaregiverSchedulerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaregiverSchedulerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F3D3CAB7971E5ED36CF4BEA /* Pods-CaregiverSchedulerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaregiverSchedulerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CaregiverSchedulerTests/Pods-CaregiverSchedulerTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -81,14 +86,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4961A2542121C32000A95F42 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E3310BDD3CBDF279055BE8A0 /* Pods_CaregiverSchedulerUITests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -96,8 +93,6 @@
 			isa = PBXGroup;
 			children = (
 				4961A23A2121C31E00A95F42 /* CaregiverScheduler */,
-				4961A2692121C73300A95F42 /* Networking */,
-				4961A2712121C9E200A95F42 /* Models */,
 				4961A24F2121C32000A95F42 /* CaregiverSchedulerTests */,
 				4961A2392121C31E00A95F42 /* Products */,
 				753A0BBA7FD09B88322CD98B /* Pods */,
@@ -110,7 +105,6 @@
 			children = (
 				4961A2382121C31E00A95F42 /* CaregiverScheduler.app */,
 				4961A24C2121C32000A95F42 /* CaregiverSchedulerTests.xctest */,
-				4961A2572121C32000A95F42 /* CaregiverSchedulerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,6 +117,10 @@
 				4961A23F2121C31E00A95F42 /* Main.storyboard */,
 				4961A2422121C32000A95F42 /* Assets.xcassets */,
 				4961A2442121C32000A95F42 /* LaunchScreen.storyboard */,
+				4961A27C2121D79D00A95F42 /* DataSource */,
+				4961A2782121D4C400A95F42 /* Modules */,
+				4961A2692121C73300A95F42 /* Networking */,
+				4961A2712121C9E200A95F42 /* Models */,
 				4961A2472121C32000A95F42 /* Info.plist */,
 			);
 			path = CaregiverScheduler;
@@ -131,7 +129,9 @@
 		4961A24F2121C32000A95F42 /* CaregiverSchedulerTests */ = {
 			isa = PBXGroup;
 			children = (
-				4961A2742121CBC900A95F42 /* EmpaticaServiceTests.swift */,
+				496B79182122CD2E006280B5 /* Modules */,
+				496B79172122CD21006280B5 /* Data Manager */,
+				496B79162122CD16006280B5 /* Networking */,
 				4961A2522121C32000A95F42 /* Info.plist */,
 			);
 			path = CaregiverSchedulerTests;
@@ -141,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				4961A26A2121C73300A95F42 /* EmpaticaAPIProtocol.swift */,
+				4961A28B2121DFB300A95F42 /* EmpaticaAPI.swift */,
 				4961A26C2121C73300A95F42 /* EmpaticaService */,
 			);
 			path = Networking;
@@ -160,6 +161,56 @@
 				4961A2722121C9F500A95F42 /* Caregiver.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		4961A2782121D4C400A95F42 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				4961A2792121D4EA00A95F42 /* CaregiversViewModel.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		4961A27C2121D79D00A95F42 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				4961A2802121D7E400A95F42 /* DataManagerProtocol.swift */,
+				4961A27D2121D79D00A95F42 /* DataManager.swift */,
+				496B79152122CB64006280B5 /* Disk Utilities */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		496B79152122CB64006280B5 /* Disk Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				496B79132122C644006280B5 /* Storage.swift */,
+			);
+			path = "Disk Utilities";
+			sourceTree = "<group>";
+		};
+		496B79162122CD16006280B5 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				4961A2742121CBC900A95F42 /* EmpaticaServiceTests.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		496B79172122CD21006280B5 /* Data Manager */ = {
+			isa = PBXGroup;
+			children = (
+				4961A28D2121E4B600A95F42 /* DataManagerProtocolTests.swift */,
+			);
+			path = "Data Manager";
+			sourceTree = "<group>";
+		};
+		496B79182122CD2E006280B5 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				4961A2892121DF0100A95F42 /* CaregiversViewModelTests.swift */,
+			);
+			path = Modules;
 			sourceTree = "<group>";
 		};
 		753A0BBA7FD09B88322CD98B /* Pods */ = {
@@ -227,25 +278,6 @@
 			productReference = 4961A24C2121C32000A95F42 /* CaregiverSchedulerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4961A2562121C32000A95F42 /* CaregiverSchedulerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4961A2662121C32000A95F42 /* Build configuration list for PBXNativeTarget "CaregiverSchedulerUITests" */;
-			buildPhases = (
-				6C0724B7A8AB3CE86D64897A /* [CP] Check Pods Manifest.lock */,
-				4961A2532121C32000A95F42 /* Sources */,
-				4961A2542121C32000A95F42 /* Frameworks */,
-				4961A2552121C32000A95F42 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4961A2592121C32000A95F42 /* PBXTargetDependency */,
-			);
-			name = CaregiverSchedulerUITests;
-			productName = CaregiverSchedulerUITests;
-			productReference = 4961A2572121C32000A95F42 /* CaregiverSchedulerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -260,10 +292,6 @@
 						CreatedOnToolsVersion = 9.4;
 					};
 					4961A24B2121C32000A95F42 = {
-						CreatedOnToolsVersion = 9.4;
-						TestTargetID = 4961A2372121C31E00A95F42;
-					};
-					4961A2562121C32000A95F42 = {
 						CreatedOnToolsVersion = 9.4;
 						TestTargetID = 4961A2372121C31E00A95F42;
 					};
@@ -284,7 +312,6 @@
 			targets = (
 				4961A2372121C31E00A95F42 /* CaregiverScheduler */,
 				4961A24B2121C32000A95F42 /* CaregiverSchedulerTests */,
-				4961A2562121C32000A95F42 /* CaregiverSchedulerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -301,13 +328,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		4961A24A2121C32000A95F42 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4961A2552121C32000A95F42 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,24 +383,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CaregiverSchedulerTests/Pods-CaregiverSchedulerTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6C0724B7A8AB3CE86D64897A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CaregiverSchedulerUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		7D53CE3689A9AD4E334E80E3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -409,11 +411,11 @@
 				"${BUILT_PRODUCTS_DIR}/Action/Action.framework",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/Disk/Disk.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
 				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
-				"${BUILT_PRODUCTS_DIR}/RxCoreData/RxCoreData.framework",
 				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftSpinner/SwiftSpinner.framework",
@@ -423,11 +425,11 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Action.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Disk.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCoreData.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSpinner.framework",
@@ -445,7 +447,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4961A26E2121C73300A95F42 /* EmpaticaAPIProtocol.swift in Sources */,
+				4961A28C2121DFB300A95F42 /* EmpaticaAPI.swift in Sources */,
+				4961A27B2121D56000A95F42 /* CaregiversViewModel.swift in Sources */,
 				4961A23E2121C31E00A95F42 /* ViewController.swift in Sources */,
+				496B79142122C644006280B5 /* Storage.swift in Sources */,
+				4961A2812121D7E400A95F42 /* DataManagerProtocol.swift in Sources */,
+				4961A27F2121D7B300A95F42 /* DataManager.swift in Sources */,
 				4961A2732121C9F500A95F42 /* Caregiver.swift in Sources */,
 				4961A2702121C73300A95F42 /* EmpaticaService.swift in Sources */,
 				4961A23C2121C31E00A95F42 /* AppDelegate.swift in Sources */,
@@ -457,13 +464,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4961A2752121CBC900A95F42 /* EmpaticaServiceTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4961A2532121C32000A95F42 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				4961A28E2121E4B600A95F42 /* DataManagerProtocolTests.swift in Sources */,
+				4961A28A2121DF0100A95F42 /* CaregiversViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,11 +476,6 @@
 			isa = PBXTargetDependency;
 			target = 4961A2372121C31E00A95F42 /* CaregiverScheduler */;
 			targetProxy = 4961A24D2121C32000A95F42 /* PBXContainerItemProxy */;
-		};
-		4961A2592121C32000A95F42 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4961A2372121C31E00A95F42 /* CaregiverScheduler */;
-			targetProxy = 4961A2582121C32000A95F42 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -698,48 +695,6 @@
 			};
 			name = Release;
 		};
-		4961A2672121C32000A95F42 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37BE0924A8970F37FFB87595 /* Pods-CaregiverSchedulerUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XP6P798NUV;
-				INFOPLIST_FILE = CaregiverSchedulerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jrbordet.CaregiverSchedulerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CaregiverScheduler;
-			};
-			name = Debug;
-		};
-		4961A2682121C32000A95F42 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2FD0F180625F7FAA9AB861EE /* Pods-CaregiverSchedulerUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XP6P798NUV;
-				INFOPLIST_FILE = CaregiverSchedulerUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jrbordet.CaregiverSchedulerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CaregiverScheduler;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -766,15 +721,6 @@
 			buildConfigurations = (
 				4961A2642121C32000A95F42 /* Debug */,
 				4961A2652121C32000A95F42 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4961A2662121C32000A95F42 /* Build configuration list for PBXNativeTarget "CaregiverSchedulerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4961A2672121C32000A95F42 /* Debug */,
-				4961A2682121C32000A95F42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
