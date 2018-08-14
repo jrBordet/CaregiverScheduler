@@ -27,12 +27,20 @@ class CaregiversViewModel {
     
     init(input i: (seed: String, results: Int), dependecy: (dataManager: DataManagerProtocol, api: EmpaticaAPIProtocol)) {
         let API = dependecy.api
-        _ = dependecy.dataManager
+        let manager = dependecy.dataManager
         
         self.caregiversCollection = API.fetchCaregivers(i.seed, resuts: i.results)
         
         self.fetchCaregivers = Action { action -> Observable<[Caregiver]> in
-            return API.fetchCaregivers(i.seed, resuts: i.results)
+            return dependecy.dataManager.isDataSaved ?
+                dependecy.dataManager.retrieveAllCaregivers() :
+                API.fetchCaregivers(i.seed, resuts: i.results)
         }
+        
+        self.fetchCaregivers
+            .elements
+            .subscribe(onNext: { caregivers in
+                dependecy.dataManager.saveCaregivers(cg: caregivers)
+            }).disposed(by: bag)
     }
 }

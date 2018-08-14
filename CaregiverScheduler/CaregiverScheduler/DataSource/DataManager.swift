@@ -19,6 +19,10 @@ class DataManager: DataManagerProtocol {
     
     // MARK: - DataManagerProtocol
     
+    var isDataSaved: Bool {
+        return Storage.fileExists("caregivers.json", in: .documents)
+    }
+    
     func saveCaregivers(cg: [Caregiver]) {
         Storage.store(cg, to: .documents, as: "caregivers.json")
     }

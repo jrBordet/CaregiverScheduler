@@ -23,6 +23,8 @@ class ListCaregiversViewController: UIViewController {
 
     final var viewModel: CaregiversViewModel!
     
+    // MARK: - Life cycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

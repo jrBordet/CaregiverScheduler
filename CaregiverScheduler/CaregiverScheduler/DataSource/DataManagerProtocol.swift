@@ -14,4 +14,6 @@ protocol DataManagerProtocol {
     func saveCaregivers(cg: [Caregiver])
     
     func retrieveAllCaregivers() -> Observable<[Caregiver]>
+    
+    var isDataSaved: Bool { get }
 }
