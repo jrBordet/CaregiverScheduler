@@ -58,8 +58,8 @@ class ListCaregiversViewController: UIViewController {
             .fetchCaregivers
             .elements
             .bind(to: tableView.rx.items(cellIdentifier: "CaregiverCell", cellType: CaregiverCell.self)) { index, model, cell in
-                cell.nameLabel.text = model.name.first
-                cell.surnameLabel.text = model.name.last
+                cell.nameLabel.text = model.name.first.capitalized
+                cell.surnameLabel.text = model.name.last.capitalized
                 
                 if let url = model.imageUrl() {
                     cell.thumbnail?.kf.setImage(with: url, placeholder: nil, options: nil, progressBlock: nil, completionHandler: { image, error, cacheType, URL in

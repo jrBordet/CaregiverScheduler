@@ -27,7 +27,6 @@ class CaregiversViewModel {
     
     init(input i: (seed: String, results: Int), dependecy: (dataManager: DataManagerProtocol, api: EmpaticaAPIProtocol)) {
         let API = dependecy.api
-        let manager = dependecy.dataManager
         
         self.caregiversCollection = API.fetchCaregivers(i.seed, resuts: i.results)
         
