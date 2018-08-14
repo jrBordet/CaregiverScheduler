@@ -21,6 +21,8 @@ class CaregiversViewModel {
     
     let caregiversCollection: Observable<[Caregiver]>
     
+    var fetchCaregivers: Action<(Bool), [Caregiver]>!
+    
     // MARK: - Initializer
     
     init(input i: (seed: String, results: Int), dependecy: (dataManager: DataManagerProtocol, api: EmpaticaAPIProtocol)) {
@@ -28,5 +30,9 @@ class CaregiversViewModel {
         _ = dependecy.dataManager
         
         self.caregiversCollection = API.fetchCaregivers(i.seed, resuts: i.results)
+        
+        self.fetchCaregivers = Action { action -> Observable<[Caregiver]> in
+            return API.fetchCaregivers(i.seed, resuts: i.results)
+        }
     }
 }

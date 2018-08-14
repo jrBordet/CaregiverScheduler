@@ -18,6 +18,14 @@ struct Caregiver: Codable, Equatable {
     let login: Login
 }
 
+extension Caregiver {
+    func imageUrl() -> URL? {
+        guard let url = URL(string: picture.large) else { return nil }
+        
+        return url
+    }
+}
+
 struct Name: Codable, Equatable {
     let title: String
     let first: String
