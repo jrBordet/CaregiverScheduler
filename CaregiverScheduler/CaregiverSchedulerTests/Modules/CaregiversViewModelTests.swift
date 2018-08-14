@@ -34,7 +34,7 @@ class CaregiversViewModelTests: XCTestCase {
         viewModel
             .caregiversCollection
             .subscribe(onNext: { caregivers in
-                debugPrint(caregivers)
+                XCTAssertEqual(caregivers.count, 10)
                 
                 expectation.fulfill()
             }).disposed(by: bag)
